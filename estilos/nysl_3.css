@@ -1,0 +1,366 @@
+body {
+    background: url(/imagenes/camp_futbol_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+h1 {
+    background: #2f81ff70;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family: Montserrat, Sans-serif;
+    background: url(/imagenes/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 103px;
+}
+
+footer {
+    color: white;
+    background: #333333bd;
+    font:12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cont_imagen1 {
+    background: url(/imagenes/design2_image1.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo_encabezado {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-family: Montserrat, Sans-serif;
+    background: #cecfd56e;
+    color: aliceblue;
+}
+
+img.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.imgLogo {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 17px 0px 0px 10px;
+}
+
+.imgLogo1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 17px 0px 0px 10px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+.calendar {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4a4a4d;
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    margin: 10px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.fuente-permission {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4a4a4d;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+
+div.menu {
+    background-color: #333333c2;
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 550px;
+    margin: auto;
+    text-align: center;
+    font: menu;
+}
+
+div.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.menu a:hover {
+    background-color: #777;
+}
+
+a.class_a_ref {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    background: green;
+}
+
+.encabezado {
+    text-align: center;
+    font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: dimgrey;
+}
+
+.encab1 {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.encab2 {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.marca_cuadro {
+    list-style-type: square;
+}
+
+.negrita {
+    font-weight: bold;
+    color: grey;
+}
+
+.marca_letra {
+
+    list-style-type: lower-latin;
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+}
+
+.marca_circulo {
+    list-style: circle;
+}
+
+.text_rules {
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    margin: 10px;
+    overflow: auto;
+
+
+}
+
+
+table {
+    background-color: #5657672b;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: grey;
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 250px;
+
+}
+
+th,
+td {
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+thead {
+    background: #3a84df;
+    color: #fff;
+}
+
+.fuente-letra {
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+.fuente_info {
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    display: inline-flex;
+
+}
+
+.interline {
+    line-height: 1.5em;
+    margin-left: 15px;
+    height: 200px;
+    overflow-y: auto;
+    height: 300px;
+
+}
+
+.contenedor1 {
+    background: white;
+    border-radius: 15px;
+    margin-left: 175px;
+    margin-right: 175px;
+    height: 500px;
+    margin-top: 10px;
+    overflow: auto;
+
+}
+
+.calendar_img {
+    width: 120px;
+    margin-left: 239px;
+
+}
+
+.mail_img {
+    width: 120px;
+    margin-left: 239px;
+    margin-top: 60px;
+
+}
+
+input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    flex-grow: 1;
+}
+
+label {
+
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4a4a4d
+}
+
+legend {
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4a4a4d;
+
+}
+
+
+.box1 {
+    display: flex;
+
+}
+
+.box2 {
+    flex-grow: 1;
+
+}
+
+.box3 {
+    flex-grow: 1;
+
+}
+
+.area3 {
+    text-align: center;
+}
+
+.form1 {
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+form {
+    margin: 50px;
+
+}
+
+.padre {
+    margin: 40px;
+}
+
+.caixeta1 {
+    display: flex;
+    margin-right: 50px;
+
+}
+
+.caixeta2 {
+    display: flex;
+
+}
+
+.submit {
+
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.contenedor_mapas {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.texto_mapa {
+    text-align: center;
+    font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+
+}
+
+.venue-map {
+    width: 300px;
+    height: 150px;
+    border-color: #80808054;
+    border-radius: 5px;
+
+}
+
+.data_table {
+    margin-left: 430px;
+}
+
+.margen {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.grid1 {
+    margin: 5px;
+}
+
+.grid2 {
+    margin: 5px;
+
+}
+
+.grid3 {
+    margin: 5px;
+}
+
+
